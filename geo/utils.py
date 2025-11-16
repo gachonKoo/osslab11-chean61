@@ -5,5 +5,5 @@ def distance(x1, y1, x2, y2):
     dy = y2 - y1
     return math.sqrt(dx*dx + dy*dy)
 
-def triangle_area(base, height):
-    return (base * height) / 2
+def area(r):
+    return math.pi * (r ** 2)
