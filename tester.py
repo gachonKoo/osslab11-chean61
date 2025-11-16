@@ -1,4 +1,9 @@
-from geo.utils import distance, triangle_area
+import geo.utils as utils
 
-print(int(distance(0, 0, 3, 4)))
-print(int(triangle_area(10, 5)))
+a, b = 3, 4
+c = utils.pythagoras(a, b)
+print('c =', c)
+
+r = 10
+area = utils.circle(r)
+print('area =', area)
